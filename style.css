@@ -4,8 +4,13 @@
 .navbar {
     margin-bottom: 0px;
     background-color: #FF7C16;
-    height: 80px;
-    text-align: right;
+    height: 70px;
+    text-align: end;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 .navbar li {
     display: inline-block;
@@ -39,6 +44,7 @@ ul {
     margin-right: 10%;
 }
 .jumbotron {
+    padding-top: 50px;
     margin-top: 0px;
     background-image: url("./pic/batik.jpg");
     background-size: 100%;
@@ -66,13 +72,41 @@ button {
     background-color:white;
     color: #FF7C16;
 }
+.jenisBatik {
+    display: flex;
+}
+.jenisBatik > div {
+    background-color:inherit;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    flex-flow: row wrap;
+}
+.jenisBatik div p {
+    font-size: 15px;
+}
+.profit {
+    display: flex;
+}
+.profit > div {
+    background-color:inherit;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    flex-flow: row wrap;
+}
+.profit div p {
+    font-size: 15px;
+}
 .orange {
     background-color: #ff7c1b; 
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     height: 100px;
-    padding-top: 10px;   
+    padding-top: 2px;
 }
 .white{
     display: flex;
@@ -83,7 +117,7 @@ button {
 .white > div{
     background-color: white;
     margin: 20px;
-    padding: 90px;
+    padding: 10px;
     font-size: 10px;
     text-align: center;
 }
